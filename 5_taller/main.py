@@ -63,9 +63,10 @@ def removeProduct():
     with open(fetch, "r") as file:
         products = json.load(file)
     id = int(input("Input product ID to remove: "))
-    for i in range(len(products)):
-        if products[i]["id"] == id:
+    for i in range(len(almacen)):
+        if almacen[i]["id"] == id:
             del almacen[i]
+            saveProducts()
             print("Product removed successfully.")
             saveProducts()
             input("Continue...")
