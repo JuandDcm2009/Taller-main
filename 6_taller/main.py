@@ -5,9 +5,10 @@ import csv
 
 def convert():
     with open(fcsv, "r") as file:
-        try:
+        reader = csv.DictReader(file)
+        try:    
             with open(fjson, "w") as json_file:
-                read = json.dump(list(reader), json_file, indent=2)
+                json.dump(list(reader), json_file, indent=2)
                 print("CSV to JSON conversion completed successfully.")
                 input("continue...")
         except Exception as e:
