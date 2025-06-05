@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Juan",
+    "City": "Bogota"
+  },
+  {
+    "id": 1,
+    "name": "Sofia",
+    "City": "Bogota"
+  },
+  {
+    "id": 1,
+    "name": "Alberto",
+    "City": "Bucaramanga"
+  },
+  {
+    "id": 1,
+    "name": "Rodolfo",
+    "City": "Cali"
+  },
+  {
+    "id": 1,
+    "name": "Maria",
+    "City": "Bogota"
+  },
+  {
+    "id": 1,
+    "name": "Paola",
+    "City": "Medellin"
+  }
+]

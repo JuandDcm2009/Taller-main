@@ -1,5 +1,5 @@
 fichero = "2_taller/diario.txt"
-
+import os
 
 date = "Fecha: 2025-06-02"
 busy = False
@@ -17,7 +17,6 @@ def escribirDiario(msg):
 
 with open(fichero, "a") as filee:
     filee.writelines(f"\n{date}")
-
 
 menu = """
 𝑸𝒖𝒆𝒓𝒊𝒅𝒐  𝑫 𝒊𝒂𝒓𝒊𝒐
